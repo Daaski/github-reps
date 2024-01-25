@@ -1,0 +1,22 @@
+
+.actions_wrapper {
+  width: 50%;
+  display: flex;
+  column-gap: 10px;
+
+}
+
+.button_wrapper {
+  min-width: 150px;
+  max-width: 150px ;
+  text-align: center;
+  border: 1px solid blue;
+  border-radius: 12px;
+  padding: 10px;
+  transition: .2s all ease-in-out;
+  cursor: pointer;
+  &:hover {
+    background: blue;
+    color: white;
+  }
+}
