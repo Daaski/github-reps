@@ -3,7 +3,7 @@
 import React, { ChangeEventHandler } from 'react';
 import clsx from 'clsx';
 
-import {IInputProps} from "UI/Input/types.ts";
+import {IInputProps} from "UI/Input/types";
 
 import scss from './Input.module.scss';
 

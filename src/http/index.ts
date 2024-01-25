@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { snakeToCamelCaseDeep } from 'utils/snakeToCamelCaseDeep.ts';
+import { snakeToCamelCaseDeep } from 'utils/snakeToCamelCaseDeep';
 
 export const $host = axios.create({
     baseURL: 'https://api.github.com/',

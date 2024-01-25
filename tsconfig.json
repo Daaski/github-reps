@@ -15,7 +15,6 @@
     "incremental": true,
     "types": ["vite-plugin-svgr/client"],
     "baseUrl": "src",
-    "references": [{ "path": "./tsconfig.node.json" }],
     "paths": {
       "@/*": ["./src/*"]
     }
